@@ -21,3 +21,6 @@ Change directory to /infra/k8s and run `kubectl apply -f .` in terminal
 
 ## Install skaffold
 https://skaffold.dev/docs/install/
+
+## Generete secret for JWT
+`kubectl create secret generic jwt-secret --from-literal=JWT_KEY=<value>`
