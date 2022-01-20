@@ -5,7 +5,7 @@ import {
   NotFoundError,
   requireAuth,
   NotAuthorizedError,
-} from '@banzo276/common';
+} from '@banzotickets/common';
 import { Ticket } from '../models/ticket';
 
 const router = express.Router();
