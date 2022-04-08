@@ -24,3 +24,6 @@ https://skaffold.dev/docs/install/
 
 ## Generete secret for JWT
 `kubectl create secret generic jwt-secret --from-literal=JWT_KEY=<value>`
+
+## Generete secret for Stripe
+`kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=<api_secret_key_from_stripe.com>`
